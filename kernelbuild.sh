@@ -18,7 +18,7 @@
 echo "|| Downloading few Dependecies . . .||"
 # Kernel Sources
 git clone --depth=1 $KERNEL_SOURCE $KERNEL_BRANCH $DEVICE_CODENAME
-git clone --depth=1 https://github.com/Plankton00/Predator_Clang_14 Predator # Predator set as Clang Default
+git clone --depth=1 https://github.com/Plankton00/Predator_clang_13 Predator # Predator set as Clang Default
 
 # Main Declaration
 KERNEL_ROOTDIR=$(pwd)/$DEVICE_CODENAME # IMPORTANT ! Fill with your kernel source root directory.
